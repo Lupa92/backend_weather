@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const fetch = require('node-fetch');
+// const fetch = require('node-fetch');
 const City = require('../models/cities');
 
 const OWM_API_KEY = 'ce7418650c86eae6629dfcfdda141c14';
